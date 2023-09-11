@@ -1,0 +1,25 @@
+/* Customize headings */
+h1, h2, h3 {
+    font-family: "Your Heading Font", sans-serif;
+    color: #333;
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Customize paragraphs */
+  p {
+    font-family: "Your Paragraph Font", sans-serif;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+  
+  /* Customize links */
+  a {
+    text-decoration: none;
+  }
+
+  
+  
+  

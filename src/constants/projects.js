@@ -26,9 +26,18 @@ export const projects = [
   {
     title: "DavidUrschel.com - This Website",
     body: "Created a feature-rich, interactive website from scratch using React and TypeScript for front-end development, with a responsive and visually appealing design crafted using Tailwind CSS. Implemented dynamic content presentation to show my portfolio.",
-    images: [ReactLogo, CSSLogo, HTMLLogo, JavascriptLogo, TailwindLogo],
+    images: [ReactLogo, CSSLogo, HTMLLogo, JavascriptLogo, TailwindLogo, GitHubLogo],
     date: "Aug. 2023 - Sep. 2023",
     sourceLink: "",
+    demonstrationLink: "",
+  },
+
+  {
+    title: "TicTacToe with React and Javascript",
+    body: "A straightforward Tic-Tac-Toe project built with JavaScript, CSS, and React. It offers a user-friendly interface where players take turns, and the winner is announced when a player forms a row of three symbols. The game also includes scorekeeping, session persistence using localStorage, and is easy to set up by following the provided instructions.",
+    images: [ReactLogo, CSSLogo, HTMLLogo, JavascriptLogo, GitHubLogo],
+    date: "May 2023 - May 2023",
+    sourceLink: "https://github.com/davidurschel/TicTacToe-React-and-Javascript",
     demonstrationLink: "",
   },
 

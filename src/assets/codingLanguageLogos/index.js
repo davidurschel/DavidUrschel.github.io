@@ -19,6 +19,7 @@ import MicrosoftExcelLogo from "./MicrosoftExcelLogo.png"
 import BlenderLogo from "./BlenderLogo.png"
 import DiscordLogo from "./DiscordLogo.svg"
 import DaVinciLogo from "./DaVinciLogo.png"
+import ChromeLogo from "./chromeLogo.png"
 
 export {
     BashLogo,
@@ -42,4 +43,5 @@ export {
     BlenderLogo,
     DiscordLogo,
     DaVinciLogo,
+    ChromeLogo,
 }

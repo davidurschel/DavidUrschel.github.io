@@ -45,7 +45,7 @@ const LayoutChildren = () => {
           <TiltComponent
             link="/projects"
             linkTitle="Projects ->"
-            body="Embark on a Personal Journey of Discovery: Explore the Unique Projects That Showcase My Passion, Commitment, and Dedication in Turning Dreams into Reality!"
+            body="Embark on a personal journey of discovery: Explore the unique projects that showcase my passion, commitment, and dedication in turning dreams into reality!"
           ></TiltComponent>
         </div>
         <div className="">

@@ -5,6 +5,7 @@ import {
   CPlusPlusLogo,
   CSSLogo,
   CSharpLogo,
+  ChromeLogo,
   DaVinciLogo,
   DiscordLogo,
   GitHubLogo,
@@ -29,6 +30,15 @@ export const projects = [
     images: [ReactLogo, CSSLogo, HTMLLogo, JavascriptLogo, TailwindLogo, GitHubLogo],
     date: "Aug. 2023 - Sep. 2023",
     sourceLink: "",
+    demonstrationLink: "",
+  },
+
+  {
+    title: "Basic Calculator Chrome Extension",
+    body: "A simple calculator extension that works on any chromium based web browser allowing users to Add, Subtract, Multiply, Divide, and Exponentiate without the painful process of switching tabs allowing for a less cluttered user experience.",
+    images: [ChromeLogo, CSSLogo, HTMLLogo, JavascriptLogo, , GitHubLogo],
+    date: "May 2023 - May 2023",
+    sourceLink: "https://github.com/davidurschel/basic-calculator-chrome-extension",
     demonstrationLink: "",
   },
 

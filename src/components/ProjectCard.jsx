@@ -43,6 +43,7 @@ const ProjectCard = ({
           ))}
         </div>
         {sourceLink && (<a href={sourceLink} target="_blank"><p className="underline mt-4 text-gray-400 text-lg font-poppins font-bold">{"Check out the source code here ->"}</p></a>)}
+        {demonstrationLink && (<a href={demonstrationLink} target="_blank"><p className="underline text-gray-400 text-lg font-poppins font-bold">{"Check out the live deployment ->"}</p></a>)}
       </div>
     </Tilt>
   );

@@ -39,7 +39,7 @@ export const projects = [
     images: [ChromeLogo, CSSLogo, HTMLLogo, JavascriptLogo, , GitHubLogo],
     date: "May 2023 - May 2023",
     sourceLink: "https://github.com/davidurschel/basic-calculator-chrome-extension",
-    demonstrationLink: "",
+    demonstrationLink: "https://chrome.google.com/webstore/detail/basic-calculator/cahgbmoohheneohjejjaladliemlmbfg/",
   },
 
   {

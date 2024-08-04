@@ -11,7 +11,7 @@ const TiltComponent = ({ link, linkTitle, body }) => {
             <div className="mx-auto text-center flex">
               <a
                 class="group transition-all duration-300 ease-in-out z-50"
-                href={link}
+                href={`/#${link}`}
               >
                 <span className="text-bold text-cardTitle md:text-5xl text-4xl font-bold font-poppins bg-left-bottom bg-gradient-to-r from-cardTitle to-cardTitle bg-[length:0%_4px] bg-no-repeat group-hover:bg-[length:100%_5px] transition-all duration-1000 ease-out">
                   {linkTitle}

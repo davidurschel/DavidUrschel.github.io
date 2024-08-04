@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../style";
+import { ProfilePicture } from "../assets";
 
 export default function About() {
   return (
@@ -8,7 +9,7 @@ export default function About() {
       <div className="flex w-full place-content-evenly">
         <div className="mb-4">
           <img
-            src="/path/to/profile-picture.jpg"
+            src={ProfilePicture}
             alt="Profile Picture"
             className="mx-auto h-32 w-32 rounded-full shadow-md"
           />

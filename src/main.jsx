@@ -7,6 +7,9 @@ import {Root, Features, About, Home, Blog, Projects, Error_404, Experience} from
 import Contact from "./routes/contact";
 import LayoutLanding from "./components/landing/LayoutLanding";
 
+window.addEventListener('hashchange', () => {
+  window.scrollTo(0, 0);
+});
 
 const router = createHashRouter([
   {

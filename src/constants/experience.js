@@ -5,13 +5,24 @@ import {
   fig,
   telusWorldOfScience,
   universityOfAlberta,
+  microchip
 } from "../assets";
 
 export const experience = [
+  // {
+  //   image: microchip,
+  //   title: "Microchip Technology",
+  //   role: "Validation Engineer - Coop",
+  //   body: [
+      
+  //   ],
+
+  //   date: "Jan 2024 - Aug 2024",
+  // },
   {
     image: fig,
     title: "Volatility Labs Inc. (Fig Investments)",
-    role: "Full Stack Developer - Intern",
+    role: "Full Stack Developer - Coop",
     body: [
       "Created front-end design with React, ChakraUI, and Tailwind CSS",
       "Developed a REST API Javascript and PostgreSQL to store funding data",
@@ -19,7 +30,7 @@ export const experience = [
       "Created basic testing for Typescript and Tavascript utility and helper functions with Jest",
     ],
 
-    date: "May 2023 - Sep. 2023",
+    date: "May 2023 - Sep 2023",
   },
   {
     image: albertaSoccer,
@@ -32,20 +43,7 @@ export const experience = [
       "Promoted from local to district, then to national level referee",
     ],
 
-    date: "May 2016 - Sep. 2022",
-  },
-  {
-    image: telusWorldOfScience,
-    title: "Telus World Of Science - Edmonton",
-    role: "Assistant Camp Leader",
-    body: [
-      "Supervised a group of 15-20 campers using leadership and communication skills",
-      "Cooperated with 3-4 other camp leaders to plan fun and science oriented educational activities ensuring campers were entertained as well as gaining specific applicable scientific knowledge",
-      "Communicated with co-workers, camp management, parents, and campers to mitigate conflicts and mediate disagreements",
-      "Adhered to camp safety protocols and procedures at all times",
-    ],
-
-    date: "May 2019 - Aug. 2019",
+    date: "May 2016 - Sep 2022",
   },
 ];
 
@@ -63,6 +61,19 @@ export const volunteering = [
 
     date: "May 2018 - Present",
   },
+  {
+    image: telusWorldOfScience,
+    title: "Telus World Of Science - Edmonton",
+    role: "Assistant Camp Leader",
+    body: [
+      "Supervised a group of 15-20 campers using leadership and communication skills",
+      "Cooperated with 3-4 other camp leaders to plan fun and science oriented educational activities ensuring campers were entertained as well as gaining specific applicable scientific knowledge",
+      "Communicated with co-workers, camp management, parents, and campers to mitigate conflicts and mediate disagreements",
+      "Adhered to camp safety protocols and procedures at all times",
+    ],
+
+    date: "May 2019 - Aug 2019",
+  },
 ];
 
 export const education = [
@@ -75,7 +86,7 @@ export const education = [
       "Deans Honor Role, University of Alberta, 2x",
     ],
 
-    date: "Sep. 2021 - May 2026",
+    date: "Sep 2021 - May 2026",
   },
   {
     image: Strathcona,
@@ -86,7 +97,7 @@ export const education = [
       "Honors with Distinction, 3x, 2018-2021",
     ],
 
-    date: "Sep. 2018 - Jun. 2021",
+    date: "Sep 2018 - Jun 2021",
   },
 ];
 

@@ -39,6 +39,8 @@ import telusWorldOfScience from "./telusWorldOfScience.jpg"
 import universityOfAlberta from "./UniversityOfAlberta.png"
 import Strathcona from "./Strathcona.png"
 import FoodBankLogo from "./FoodBankLogo.jpg"
+import ProfilePicture from "./ProfilePicture.jpg"
+import microchip from "./microchip.png"
 
 export {
   airbnb,
@@ -82,5 +84,6 @@ export {
   universityOfAlberta,
   Strathcona,
   FoodBankLogo,
-  
+  ProfilePicture,
+  microchip,
 };

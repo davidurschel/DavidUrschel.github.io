@@ -109,16 +109,16 @@ export default function About() {
           </div>
         </div>
         <h1 className="w-full text-center mb-4">Now check out my:</h1>
-        <a href="/experience" className="">
+        <a href="/#/experience" className="">
           <h1 className="text-center hover:underline font-poppins p-4 bg-gray-200 hover:bg-neutral-200 rounded-full mb-4">{"Experience ->"}</h1>
         </a>
-        <a href="/projects" className="">
+        <a href="/#/projects" className="">
           <h1 className="text-center hover:underline font-poppins p-4 bg-gray-200 hover:bg-neutral-200 rounded-full mb-4">{"Projects ->"}</h1>
         </a>
-        <a href="/blog" className="">
+        <a href="/#/blog" className="">
           <h1 className="text-center hover:underline font-poppins p-4 bg-gray-200 hover:bg-neutral-200 rounded-full mb-4">{"Blog ->"}</h1>
         </a>
-        <a href="/contact" className="">
+        <a href="/#/contact" className="">
           <h1 className="text-center hover:underline font-poppins p-4 bg-gray-200 hover:bg-neutral-200 rounded-full">{"Contact ->"}</h1>
         </a>
       </div>

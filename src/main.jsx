@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import { BlogPostPageLayout, Layout } from "./components";
 import {Root, Features, About, Home, Blog, Projects, Error_404, Experience} from "./routes";
@@ -8,7 +8,7 @@ import Contact from "./routes/contact";
 import LayoutLanding from "./components/landing/LayoutLanding";
 
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <LayoutLanding><Root /></LayoutLanding>,

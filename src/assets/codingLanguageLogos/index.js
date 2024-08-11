@@ -20,13 +20,31 @@ import BlenderLogo from "./BlenderLogo.png"
 import DiscordLogo from "./DiscordLogo.svg"
 import DaVinciLogo from "./DaVinciLogo.png"
 import ChromeLogo from "./chromeLogo.png"
+import JavaLogo from "./Java.png"
+import RubyLogo from "./Ruby.svg"
+import AndroidStudioLogo from "./AndroidStudio.png"
+import ImageMagickLogo from "./ImageMagick.svg"
+import OllamaLogo from "./Ollama.png"
+import YoutubeLogo from "./Youtube.png"
+import ArduinoLogo from "./Arduino.png"
+import OnshapeLogo from "./Onshape.png"
+import WindowsLogo from "./Windows.png"
 
 export {
+    WindowsLogo,
+    OnshapeLogo,
+    ArduinoLogo,
+    YoutubeLogo,
+    OllamaLogo,
+    ImageMagickLogo,
+    RubyLogo,
+    AndroidStudioLogo,
     BashLogo,
     CPlusPlusLogo,
     CSSLogo,
     HTMLLogo,
     JavascriptLogo,
+    JavaLogo,
     MatlabLogo,
     PythonLogo,
     ReactLogo,

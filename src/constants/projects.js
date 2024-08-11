@@ -59,7 +59,7 @@ export const projects = [
     body: "Created a feature-rich, interactive website from scratch using React and TypeScript for front-end development, with a responsive and visually appealing design crafted using Tailwind CSS. Implemented dynamic content presentation to show my portfolio.",
     images: [ReactLogo, CSSLogo, HTMLLogo, JavascriptLogo, TailwindLogo, GitHubLogo],
     date: "Aug 2023 - Sep 2023",
-    sourceLink: "",
+    sourceLink: "https://github.com/davidurschel/DavidUrschel.github.io",
     demonstrationLink: "",
   },
 

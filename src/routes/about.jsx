@@ -11,7 +11,7 @@ export default function About() {
           <img
             src={ProfilePicture}
             alt="Profile Picture"
-            className="mx-auto h-32 w-32 rounded-full shadow-md"
+            className="mx-auto h-64 w-64 rounded-full shadow-md"
           />
         </div>
       </div>

@@ -16,7 +16,7 @@ export default function Contact() {
     const config = {
       SecureToken: "03cb4490-bbb8-4375-9d6b-e2dad985ec10",
 
-      To: "contact@davidurschel.com",
+      To: "durschel@ualberta.ca",
       From: "internalmessageself@gmail.com",
       Subject: formState.subject,
       Body:
@@ -38,7 +38,7 @@ export default function Contact() {
   return (
     <div className="bg-primary w-full flex flex-col items-center">
       <div className={`${styles.heading2} mb-16`}>Contact Me</div>
-      <form onSubmit={submitHandler}>
+      {/* {<form onSubmit={submitHandler}>
         <input
           type="text"
           id="name"
@@ -74,17 +74,17 @@ export default function Contact() {
         >
           {"Send ->"}
         </button>
-      </form>
+      </form>} */}
 
       <div className="mt-2 mb-24">
-        To send an email instead click{" "}
+        Send an email to{" "}
         <a
           className="text-blue-600 underline"
           href={
-            "mailto:contact@davidurschel.com?body=%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0ASent via DavidUrschel.com"
+            "mailto:durschel@ualberta.ca?body=%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0ASent via DavidUrschel.com"
           }
         >
-          here
+          durschel@ualberta.ca
         </a>
         .
       </div>

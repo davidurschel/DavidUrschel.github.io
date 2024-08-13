@@ -63,11 +63,13 @@ export const placeholderImage = {
   icon: placeholder,
 };
 
+export const EMAIL = "durschel@ualberta.ca"
+
 export const socialMedia = [
   {
     id: "social-media-1",
     icon: email,
-    link: "mailto:contact@davidurschel.com?body=%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0ASent via DavidUrschel.com",
+    link: `mailto:${EMAIL}?body=%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0ASent via DavidUrschel.github.io`,
   },
   {
     id: "social-media-2",
@@ -85,7 +87,7 @@ export const socialMediaWhite = [
   {
     id: "social-media-1",
     icon: emailWhite,
-    link: "mailto:contact@davidurschel.com?body=%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0ASent via DavidUrschel.com",
+    link: `mailto:${EMAIL}?body=%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0ASent via DavidUrschel.github.io`,
   },
   {
     id: "social-media-2",

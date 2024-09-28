@@ -9,16 +9,20 @@ import {
 } from "../assets";
 
 export const experience = [
-  // {
-  //   image: microchip,
-  //   title: "Microchip Technology",
-  //   role: "Validation Engineer - Coop",
-  //   body: [
-      
-  //   ],
+  {
+    image: microchip,
+    title: "Microchip Technology",
+    role: "DCS Validation Engineer - Coop",
+    body: [
+      "Analyzed results of regression, FCA, and FTP tests; traced and root caused any issues filing appropriate reports and delivering updates including potential workarounds or solutions",
+      "Produced comprehensive test procedures and Tcl scripts for features such as FEC, SRIS, and voltage corners Captured traces of PCIE Gen5 and CXL 2.0 links and inspected packets to ensure spec compliance",
+      "Overhauled Python automation scripts to enable running regressions with multiple cards plugged into the same server allowing for up to 4x the coverage",
+      "Streamlined OS installation procedures for updating and bringing-up new testing environments by introducing a standardized ISO with custom Linux kernel and applications preinstalled",
+      "Supported a Tiger Team addressing a severe customer issue by characterizing signals using oscilloscopes"
+    ],
 
-  //   date: "Jan 2024 - Aug 2024",
-  // },
+    date: "Jan 2024 - Aug 2024",
+  },
   {
     image: fig,
     title: "Volatility Labs Inc. (Fig Investments)",
